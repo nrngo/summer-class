@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #ffcc00;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid #333; */
+  border-radius: 20px;
+  /* margin-top: 20px; */
+  /* margin-right: 20px; */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.color1 {
+  background: linear-gradient(to bottom right, #ff7f00, #ffcc00);
+  border-radius: 10px 0 0 0;
+}
+.color2 {
+  background: linear-gradient(to bottom, #141e30, #243b55);
+  color: white;
+  border-radius: 0;
+}
+.color3 {
+  background: linear-gradient(to bottom, #d4e4f7, #e9f2fe);
+  height: 200px;
+  border-radius: 0;
+}
+.color4 {
+  background: linear-gradient(to bottom, #ff416c, #ff4b2b);
+  color: white;
+  height: 200px;
+  border-radius: 0 10px 0 0;
+}
+.color5 {
+  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+  width: 300px;
+  border-radius: 0 0 10px 10px;
+}
+
+.container-default {
+  margin-top: 20px;
+  display: flex;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.con2 {
+  display: flex;
+}
+
+.con3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.15 {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  margin-left: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.web-navbar {
+  width: 200px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-body {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border-bottom: 1px solid black;
+}
+
+.web-sidebar {
+  width: 50px;
+  height: 200px;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+    gg
+
+
+
+
+
+
+
+
+
+
+
+
+
+     skfjsa; dlkjf
+
+.web-content {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-footer {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
