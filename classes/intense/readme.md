@@ -2,9 +2,13 @@
 
 ## Lesson 1:
 
+### Source:
+
 ### Slide: https://docs.google.com/presentation/d/1gW2_IRIJiBb33foTqGZB_TQFITSiFy17OZpIRGNTMic/edit?usp=sharing
 
 ### Video: https://youtu.be/-AAQxRKrkRc
+
+### Source:
 
 ## Lesson 2:
 
