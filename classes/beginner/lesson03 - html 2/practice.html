@@ -13,11 +13,37 @@
         border-collapse: collapse;
         padding: 10px;
       }
+
+      .item {
+        border: 1px solid black;
+      }
+
+      .inline_span {
+        display: inline;
+      }
+      .block_span {
+        display: block;
+      }
+      .inline_p {
+        display: inline;
+      }
+      .block_p {
+        display: block;
+      }
     </style>
   </head>
   <body>
+    <h2>Container</h2>
+    <span class="item block_span">span: block</span>
+    <span class="item inline_span">span: inline</span>
+    <p class="item inline_p">paragraph: inline</p>
+    <p class="item block_p">paragraph: block</p>
+
     <h2>TABLE</h2>
     <table>
+      <tr>
+        <th colspan="3">Student</th>
+      </tr>
       <tr>
         <th>Name</th>
         <th>Age</th>
