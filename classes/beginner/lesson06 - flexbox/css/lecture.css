@@ -1,0 +1,46 @@
+/* 
+Flexbox
+
+1. flex : one dimension
+2. flex-direction : row | column (main, cross)
+3. justify-content : flex-start | center | flex-end
+4. align-items : flex-start | center | flex-end
+5. flex-wrap : nowrap | wrap 
+6. align-content : flex-start | center | flex-end
+7. align-self : flex-start | center | flex-end **child
+8. flex-basis : along main axis (number + unit) // child + parent
+9. flex-grow : fill empty space // child + parent
+10. flex-shrink : shrink value // child
+11. flex : flex-grow, flex-shrink, flex-basis
+
+*/
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+
+  /* Align */
+  justify-content: center;
+  align-items: center;
+
+  /* flex-wrap: wrap;
+  align-content: center; */
+}
+
+.item {
+  /* flex-basis: 200px; */
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  /* flex-grow: 1; */
+}
+
+.item1 {
+  /* flex-grow: 3; */
+  /* flex-shrink: 0; */
+  /* flex-basis: 400px; */
+  /* align-self: start; */
+  /* flex: 1 0 300px; */
+}

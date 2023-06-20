@@ -96,7 +96,7 @@
   flex-direction: column;
 }
 
-.15 {
+.web-main {
   height: 300px;
   width: 200px;
   border: 1px solid black;
@@ -128,22 +128,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-} 
-    gg
-
-
-
-
-
-
-
-
-
-
-
-
-
-     skfjsa; dlkjf
+}
 
 .web-content {
   width: 150px;
