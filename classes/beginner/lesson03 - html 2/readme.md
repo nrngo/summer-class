@@ -19,7 +19,7 @@
 ### Links
 
 - Slide url: https://docs.google.com/presentation/d/1cJ4zCEL0QvtRqBvZ7iB3gfGkpoE-i3FIalXq09Dq-XM/edit?usp=sharing
-- Video url: https://youtu.be/VOleRYXFamE
+- Video url: https://youtu.be/b5Ui8qcr9M8
 
 ![Alt text](./images/image.png)
 ![Alt text](./images/image-1.png)
