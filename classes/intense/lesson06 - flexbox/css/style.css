@@ -2,7 +2,7 @@
   border: 2px solid gray;
   display: flex;
   flex-direction: row;
-  height: 50vh;
+  height: 15vh;
 
   justify-content: flex-start;
   align-items: flex-start;
@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  height: 90vh;
+  height: 20vh;
 }
 .box-2 {
   align-self: flex-end;
@@ -28,7 +28,7 @@
   border: 2px solid gray;
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: 15vh;
 
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@
   border: 2px solid gray;
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: 15vh;
 
   justify-content: center;
   align-items: center;

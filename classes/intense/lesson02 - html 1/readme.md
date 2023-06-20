@@ -14,3 +14,4 @@
 
 - Slide url: https://docs.google.com/presentation/d/1cJ4zCEL0QvtRqBvZ7iB3gfGkpoE-i3FIalXq09Dq-XM/edit?usp=sharing
 - Video url: https://youtu.be/7fsvcnMoD48
+  ![Alt text](image.png)

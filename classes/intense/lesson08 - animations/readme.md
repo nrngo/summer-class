@@ -30,7 +30,7 @@
 
 - transform: perspective: 200px translateZ(-50px) - perspective z тэнхлэг болон хэрэглэгч хоорондын зай, translateZ z тэнхлэгийн дагуу хөдлөх хэмжүүр
 
--transform: perspective: 200px rotateY(-50px)
+- transform: perspective: 200px rotateY(-50px)
 
 ## Transitions
 
@@ -47,6 +47,10 @@
 - ease-out
 - cubic-bezier
 
-## Animations
+## Animation сангууд:
 
 ### animate.style | aos animation
+
+# Дасгал
+
+![Alt text](image.png)
