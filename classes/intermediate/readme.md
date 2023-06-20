@@ -7,3 +7,5 @@
 ### Slide: https://docs.google.com/presentation/d/1hvpN09CHAF3a5McmZTk7eJjVB13ocbsG22qKZfildN8/edit?usp=sharing
 
 ### Video: https://youtu.be/-AAQxRKrkRc
+
+### Group link: ![Alt text](../../docs/groups/intermediate-group-qr.jpg)
