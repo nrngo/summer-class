@@ -1,17 +1,25 @@
 # Hands-on
 
-### 1. Video & Audio
+### 1. CSS бичих аргууд
 
-### 2. List : ul, li, ol, dl, dd
+### 2. Normalize.css
 
-### 3. Table : table, thead, tbody, tr, th, td
+### 3. Selectors
 
-### 4. Container : block, inline
+### 4. Inspect Page (devtools) - DOM
 
-### 5. Semantic elements : article, section, nav, figure, time
+### 5. Colors
 
-### 6. Web page structure : body header, main, footer, nav
+### 6. Gradients
+
+### 7. Borders
+
+### 8. Shadows
 
 ### Links
 
-- Video url: https://youtu.be/b5Ui8qcr9M8
+- Slide url: https://docs.google.com/presentation/d/1cJ4zCEL0QvtRqBvZ7iB3gfGkpoE-i3FIalXq09Dq-XM/edit?usp=sharing
+- Video url: https://youtu.be/VOleRYXFamE
+
+![Alt text](./images/image.png)
+![Alt text](./images/image-1.png)
