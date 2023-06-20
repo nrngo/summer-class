@@ -1,3 +1,7 @@
+# Хичээлийн бичлэг:
+
+## https://youtu.be/Vocn61Z4gZ0
+
 # Хичээлийн сэдвүүд
 
 ## Transformations 2D/3D
