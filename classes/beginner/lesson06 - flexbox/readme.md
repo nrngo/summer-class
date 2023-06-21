@@ -15,4 +15,4 @@
 ### Links
 
 - Slide url: https://docs.google.com/presentation/d/1JRiDGUceWDv59nllVJCWTOuIuh2oYc-z1nUNOUc9FQc/edit?usp=sharing
-- Video url: https://youtu.be/D-Rv6WLhUuc
+- Video url: https://youtu.be/OuxzAJXEjo0
