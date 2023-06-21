@@ -11,3 +11,8 @@
 - flex-grow: Сул зайг эзлэх утга
 - flex-shrink: Зай агшихад жижигрэх утга (0,1)
 - flex: 1 - Товч бичиглэл
+
+### Жишээ:
+
+![Alt text](image.png)
+![Alt text](image-1.png)
