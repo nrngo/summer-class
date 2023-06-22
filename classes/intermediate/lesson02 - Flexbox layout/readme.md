@@ -1,9 +1,15 @@
-# Flexbox layout
+# Хичээл 2: Flexbox layout
+
+## Video:
+
+- https://youtu.be/OuxzAJXEjo0
+
+## Flex container
 
 - display:flex
 - flex-direction: Row, Column
 - justify-content: Үндсэн чиглэлийн дагуу удирдан ( `flex-start, `flex-end, `center, `space-around, `space-between)
-- align-items: Эсрэг чиглэлийн дагуу удирдан `flex-start, `flex-end, `center, `space-around, `space-between
+- align-items: Эсрэг чиглэлийн дагуу удирдана `flex-start, `flex-end, `center, `space-around, `space-between
 
 ## Flex-sizing
 
