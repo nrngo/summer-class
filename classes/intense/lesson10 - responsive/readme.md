@@ -1,5 +1,23 @@
 # Хичээл №10
 
+## Хичээлийн бичлэг:
+
+https://youtu.be/vAsq_VNXoyY
+
+## Javascript basics
+
+- Js introduction
+- Js in Browser
+- Seperation concert
+- Variables
+- Constant
+- Primitive types
+- Dynamic types
+- Object
+- Array
+- Functions
+- Function types
+
 ## Media query
 
 - Mobile first
@@ -41,17 +59,3 @@ background-color: lightgreen;
 #### Extra large devices (large laptops and desktops, 1200px and up) \_/
 
 - @media only screen and (min-width: 1200px) {...}
-
-# Javascript basics
-
-- Js introduction
-- Js in Browser
-- Seperation concert
-- Variables
-- Constant
-- Primitive types
-- Dynamic types
-- Object
-- Array
-- Functions
-- Function types
