@@ -11,6 +11,13 @@ a {
   background-image: url("assets/images/bg.jpg");
   background-size: cover;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* @media screen and (min-width: 480px) { body { background-color: lightgreen; } } */
 .left {
   flex: 1;
   height: 95vh;
