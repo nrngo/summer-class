@@ -7,7 +7,6 @@ const isDeveloper = skills.backend || skills.frontend
 console.log("isDeveloper", isDeveloper)
 
 
-
 // && : and буюу бүгд биелэж байх үед "үнэн"
 // || : or буюу аль нэг нь л биелэх үед "үнэн"
 
