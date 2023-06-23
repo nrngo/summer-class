@@ -23,7 +23,7 @@
 
 `x = 3`
 
-- x > 3 `=> true`
+- x > 3 `=> false`
 - x >= 3 `=> true`
 - x < 3 `=> false`
 - x <= 3 `=> true`
@@ -50,8 +50,8 @@ const isAdult = age >= 18 ? 'Насанд хүрсэн' : 'Насанд хүрэ
 
 ```sh
 const skills = {
- frontend: true;
- backend: true;
+ frontend: true,
+ backend: true,
 };
 # Ажлын зар fullstack хөгжүүлэгч авна
 let isFullstack = skills.frontend && skills.backend;
@@ -73,49 +73,37 @@ false || 1
 
 ### Exercise - Swapping Variables
 
-- Swap variables
+- Жишээ 1: Tip Calculator: Гараас нийт тооцоо болон цайны мөнгийг хувиар өгнө. Нийт тооцоог бодож харуулна уу.
+- Дасгал 1: Хувьсагчийн байрыг солих
+- Дасгал 2: Өгөгдсөн илэрхийллийн утгыг ол. A=B\*C-D
+  Нэг мөрөнд 3 бүхэл тоо нэг нэг зайгаар тусгаарлагдан өгөгдөнө.
 
-- Exercise: Tip Calculator
-
-Create a JavaScript program that calculates the total bill amount, including the tip, based on user input. The program should prompt the user to enter the bill amount and the desired tip percentage. It should then calculate and display the total bill, including the tip.
-
-Here's a step-by-step guide to help you get started:
-
-Start by creating a new HTML file and include a script tag within the <body> section.
-
-Inside the script tag, begin by prompting the user to enter the bill amount using the prompt() function. Store the input value in a variable.
-
-Next, use another prompt() function to ask the user to enter the desired tip percentage. Again, store the input value in a separate variable.
-
-Convert the bill amount and tip percentage from strings to numbers using the parseFloat() function.
-
-Calculate the tip amount by multiplying the bill amount by the tip percentage divided by 100. Store the result in a variable.
-
-Calculate the total bill by adding the bill amount and the tip amount. Store the result in another variable.
-
-Use console.log() to display the total bill, including the tip, to the user.
-
-Test your program by opening the HTML file in a web browser and entering different bill amounts and tip percentages.
-
-Here's an example of what the JavaScript code for this exercise could look like:
-
-javascript
+- Дасгал 3: Гараас хоног, цаг өгсөн бол нийт цаг хэд вэ?
+- Дасгал 4: Тонгорогсон тоо: Өгөгдсөн тооны тонгорогсон тоог ол.
+  Input:
+  1234
+  Output:
+  4321
 
 <script>
-  // Step 1
-  let billAmount = prompt("Enter the bill amount:");
-  let tipPercentage = prompt("Enter the desired tip percentage:");
+     // Алхам 1
+     let billAmount = prompt("Та тооцооны дүнг оруулна уу?: ₮");
+     let tipPercentage = prompt(
+       "Та өгөхийг хүсэж буй гарын мөнгөний (tip) хувь оруулна уу?: ₮"
+     );
 
-  // Step 2
-  billAmount = parseFloat(billAmount);
-  tipPercentage = parseFloat(tipPercentage);
+     // Алхам 2
+     billAmount = parseFloat(billAmount);
+     tipPercentage = parseFloat(tipPercentage);
 
-  // Step 3
-  let tipAmount = billAmount * (tipPercentage / 100);
+     // Алхам 3
+     let tipAmount = billAmount * (tipPercentage / 100);
 
-  // Step 4
-  let totalBill = billAmount + tipAmount;
-
-  // Step 5
-  console.log("Total bill (including tip): $" + totalBill.toFixed(2));
-</script>
+     // Алхам 4
+     let totalBill = billAmount + tipAmount;
+     let result =
+       "Таны нийт тооцоо (гарын мөнгө орсон): ₮" + totalBill.toFixed(2);
+     // Алхам 5
+     console.log(result);
+     alert(result);
+   </script>
