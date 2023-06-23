@@ -85,6 +85,7 @@ false || 1
   Output:
   4321
 
+```sh
 <script>
      // Алхам 1
      let billAmount = prompt("Та тооцооны дүнг оруулна уу?: ₮");
@@ -107,3 +108,4 @@ false || 1
      console.log(result);
      alert(result);
    </script>
+```
