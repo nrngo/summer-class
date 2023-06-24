@@ -1,0 +1,28 @@
+div {
+  border: 1px solid #333;
+  font-size: 32rem;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  height: 50vh;
+  width: 90vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+h1 {
+  color: blue;
+}
+.bigText {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 86, 121, 1) 41%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  font-size: 30px;
+  color: #5352ed;
+}
+#my-text {
+  color: gold;
+}
