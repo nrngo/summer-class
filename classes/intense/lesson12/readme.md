@@ -1,4 +1,4 @@
-# Хичээл №12: Javascript операторууд
+# Хичээл №12: Javascript нөхцөл, давталт
 
 ### if else
 
@@ -11,6 +11,22 @@ else if(condition_2){
 }
 else
     console.log('Өмнөх нөхцөлүүд биелэхгүй үед ажиллана.');
+
+let temperature = prompt("Өнөөдрийн температур оруулна уу:");
+
+// Гараас өгсөн утгийг тооруу хөрвүүлэх
+temperature = parseFloat(temperature);
+
+if (temperature > 30) {
+  console.log("Маш халуун өдөр байна, ус сайн уугаарай");
+} else if (temperature >= 20 && temperature <= 30) {
+  console.log("Дажгүй өдөр байна!");
+} else if (temperature < 20) {
+  console.log("Тийм ч дулаахан биш байна");
+} else {
+  console.log("Буруу температур оруулсан байна.");
+}
+
 ```
 
 Жишээ 1: Тухайн цагаас хамаарч мэнд мэдэх нөхцөл шалгах
@@ -21,7 +37,7 @@ else
 - break
 - default
 
-```sh
+````sh
 switch () {
     case condition_1:
         console.log('condition_1 биелэх үед');
@@ -31,33 +47,30 @@ switch () {
         console.log('Өмнөх нөхцөлүүд биелэхгүй үед ажиллана.');
         break;
 }
-```
+```sh
 
-// Prompt the user to enter a fruit
-let fruit = prompt("Enter a fruit:");
+let fruit = prompt("Жимсний нэр оруулна уу:");
 
-// Convert the input to lowercase for case insensitivity
 fruit = fruit.toLowerCase();
 
-// Evaluate the input using a switch case statement
 switch (fruit) {
-case "apple":
-console.log("Apples are crunchy and delicious.");
-break;
-case "banana":
-console.log("Bananas are a great source of potassium.");
-break;
-case "orange":
-console.log("Oranges are refreshing and packed with vitamin C.");
-break;
-case "strawberry":
-console.log("Strawberries are sweet and perfect for desserts.");
-break;
-default:
-console.log("That's an interesting fruit choice!");
-break;
+    case "apple":
+    console.log("Apples are crunchy and delicious.");
+    break;
+    case "banana":
+    console.log("Bananas are a great source of potassium.");
+    break;
+    case "orange":
+    console.log("Oranges are refreshing and packed with vitamin C.");
+    break;
+    case "strawberry":
+    console.log("Strawberries are sweet and perfect for desserts.");
+    break;
+    default:
+    console.log("That's an interesting fruit choice!");
+    break;
 }
-
+```
 ### Давталт
 
 - For давталт
@@ -69,10 +82,9 @@ for (let i = 0; i <= 10; i++) {
     # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
     console.log("Давталт №", i);
 }
-#
 ```
 
-- While давталт - 'while' доторхи нөхцөл биелэхгүй байх хүртэл ажиллана
+- While давталт - 'while' доторхи нөхцөл биелэж байх үед ажиллана
 
 ```sh
 let i;
@@ -153,14 +165,17 @@ for (let i = 0; i <= 5; i++) {
 }
 ```
 
-Exercise 1- Max of Two Numbers
-Exercise 2- Landscape or Portrait
-Exercise 3- FizzBuzz
-Exercise 4- Demerit Points
-Exercise 5- Even and Odd Numbers
-Exercise 6- Count Truthy
-Exercise 7- String Properties
-Exercise 8- Sum of Multiples of 3 and 5
-Exercise 9- Grade
-Exercise 10- Stars
-Exercise- Prime Numbers
+### Дасгал:
+
+- 2 тооны нийлбэр олоод дэлгэцэнд харуулдаг функц
+- Гараас тэгш өнцөгтийн өргөн, өндөр өгөх ба дүрс хэвтээ эсвэл босоо болохыг ол
+- Гараас өгсөн тоо хүртлэх тэгш эсвэл сондгой тоог ол
+- FizzBuzz:
+ /3 => Fizz
+ /5 => Buzz
+ /3/5 => FizzBuzz
+ !/3/5 => Input
+ Not number => 'Not number'
+
+
+````
