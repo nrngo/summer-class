@@ -18,7 +18,7 @@ https://youtu.be/vAsq_VNXoyY
 - Functions
 - Function types
 
-### Exerice:
+### Дасгал ажил:
 
 1. Variables: Нэр нэртэй хувьсагчийг зарлаж, түүнд нэрээ өгнө үү. Хувьсагчийн утгыг консол дээр хэвлэнэ үү.
 

@@ -1,6 +1,18 @@
-# Hands-on
+- Цээжлэх тоглоом: Хүний нэр, нас, ажил, хобби цээжлээд таана
 
-### Flex box
+0. https://www.random.org/lists/
+1. 3, 3 аараа багт хуваагдана
+2. Бүгд нэг нэгээрээ нэр, нас, ажил (сургууль), хобби -гоо бүгдэнд нь танилцуулна
+3. Дуусаад дарааллаа сугалана.
+4. Дарааллын дагуу гарч ирээд хамгийн олон хүний мэдээлэл цээжилсэн нь хожно
+
+- Шагнал: Хос киноны тасалбар
+
+  <img src="image.png" alt="drawing" width="200"/>
+  <img src="image-1.png" alt="drawing" width="200"/>
+  <img src="image-2.png" alt="drawing" width="200"/>
+
+### Flex box layout
 
 - display: flex
 - flex-direction : row | column
