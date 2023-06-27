@@ -20,6 +20,7 @@
 - align-items : start | end | center
 - flex-wrap : nowrap | wrap
 - flex: 1
+  ![Alt text](image-3.png)
 
 ### Links
 
