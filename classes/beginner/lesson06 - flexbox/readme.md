@@ -20,7 +20,14 @@
 - align-items : start | end | center
 - flex-wrap : nowrap | wrap
 - flex: 1
+
+  ### Жишээ:
+
   ![Alt text](image-3.png)
+
+  ### Даалгавар
+
+  ![Alt text](exercise.png)
 
 ### Links
 
