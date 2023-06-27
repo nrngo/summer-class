@@ -1,4 +1,4 @@
-- Цээжлэх тоглоом: Хүний нэр, нас, ажил, хобби цээжлээд таана
+<!-- - Цээжлэх тоглоом: Хүний нэр, нас, ажил, хобби цээжлээд таана
 
 0. https://www.random.org/lists/
 1. 3, 3 аараа багт хуваагдана
@@ -10,19 +10,16 @@
 
   <img src="image.png" alt="drawing" width="200"/>
   <img src="image-1.png" alt="drawing" width="200"/>
-  <img src="image-2.png" alt="drawing" width="200"/>
+  <img src="image-2.png" alt="drawing" width="200"/> -->
 
-### Flex box layout
+# Хичээл 06 - Flex box layout
 
 - display: flex
 - flex-direction : row | column
 - justify-content : start | end | center | evenly | between | around
 - align-items : start | end | center
 - flex-wrap : nowrap | wrap
-- align-content : start | end | center
-- flex-grow : number
-- flex-shrink : number
-- flex-basis : number + unit
+- flex: 1
 
 ### Links
 
