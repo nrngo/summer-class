@@ -1,3 +1,14 @@
+const skills = {
+    frontend: false,
+    backend: true,
+};
+//    # Ажлын зар fullstack хөгжүүлэгч авна
+let isFullstack = skills.frontend && skills.backend;
+//    # Үгүйсгэл (!)
+let notAccepted = !isFullstack
+console.log(notAccepted);
+
+
 // Алхам 1
 let billAmount = prompt("Та тооцооны дүнг оруулна уу?: ₮");
 let tipPercentage = prompt(
