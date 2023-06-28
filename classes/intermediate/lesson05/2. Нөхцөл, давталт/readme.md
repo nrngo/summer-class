@@ -1,5 +1,9 @@
 # Хичээл №12: Javascript нөхцөл, давталт
 
+## Хичээлийн бичлэг:
+
+https://youtu.be/XHLmyO8jfsQ
+
 ### if else
 
 ```sh
