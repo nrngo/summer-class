@@ -71,7 +71,7 @@ let notAccepted = !isDeveloper
 
 ```sh
 false || true
-false || 'text'
+false || 'text' =>
 false || 1
 ```
 
