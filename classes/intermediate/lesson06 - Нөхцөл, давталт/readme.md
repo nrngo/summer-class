@@ -1,4 +1,4 @@
-# Хичээл №12: Javascript нөхцөл, давталт
+# Хичээл №06: Javascript нөхцөл, давталт
 
 ## Хичээлийн бичлэг:
 
@@ -23,7 +23,7 @@ temperature = parseFloat(temperature);
 
 if (temperature > 30) {
   console.log("Маш халуун өдөр байна, ус сайн уугаарай");
-} else if (temperature >= 20 && temperature <= 30) {
+} else if (temperature >= 20) {
   console.log("Дажгүй өдөр байна!");
 } else if (temperature < 20) {
   console.log("Тийм ч дулаахан биш байна");
@@ -42,9 +42,13 @@ if (temperature > 30) {
 - default
 
 ````sh
-switch () {
-    case condition_1:
-        console.log('condition_1 биелэх үед');
+switch (parameter) {
+    case 5:
+        console.log('value биелэх үед');
+        console.log('value биелэх үед');
+        break;
+    case 6:
+        console.log('value биелэх үед');
         break;
 
     default:
@@ -78,20 +82,31 @@ switch (fruit) {
 ### Давталт
 
 - For давталт
-
+# 0 ,1,2,3,4,5,6,7,8,9
 ```sh
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i < 10; i++) {
     # 1. i = 0
-    # 2. i < 10 байна уу шалгаад худлаа бол үргэлжилнэ
-    # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
+    # 2. 0 < 10 байна уу шалгаад худлаа бол үргэлжилнэ
     console.log("Давталт №", i);
+    # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
+
+    # 1. i = 1
+    # 2. 1 < 10 байна уу шалгаад худлаа бол үргэлжилнэ
+    console.log("Давталт №", i);
+    # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
+    # ....
+
+    # 1. i = 10
+    # 2. 10 < 10 байна уу шалгаад худлаа бол үргэлжилнэ
+    # STOP
+    # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
 }
 ```
 
 - While давталт - 'while' доторхи нөхцөл биелэж байх үед ажиллана
 
 ```sh
-let i;
+let i=0;
 while (i <= 10) {
     if(i % 2 === 0) console.log(i);
     i++;
@@ -101,7 +116,7 @@ while (i <= 10) {
 - Do...while давталт - Эхлээд 'do' доторхи үйлдэл ажлаад дараа нь 'while' нөхцөл биелэж байна уу шалгана
 
 ```sh
-let i =0;
+let i =12;
 do {
     if(i % 2 === 0) console.log(i);
     i++;

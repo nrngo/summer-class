@@ -1,8 +1,18 @@
-for (let i = 0; i <= 5; i++) {
-     if(i === 3) 
-        continue;
-   console.log('i=',i)
+const numbers = [1,2,3,4,5,6]
+const person = {
+   name:'Baysaa',
+   gender:'male'
 }
+for (const key in person) {
+       console.log("person",person[key])
+       
+}
+
+// for (let i = 0; i <= 5; i++) {
+//      if(i === 3) 
+//         continue;
+//    console.log('i=',i)
+// }
 
 
 // const fresh_meat = {
