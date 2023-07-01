@@ -4,8 +4,7 @@ const person = {
    gender:'male'
 }
 for (const key in person) {
-       console.log("person",person[key])
-       
+       console.log("person",person[key])       
 }
 
 // for (let i = 0; i <= 5; i++) {

@@ -19,4 +19,9 @@
 - Тэмцээн дээр хуваагдсан багаараа хамтран веб хөгжүүлж эхлэх бөгөөд цаашид хичээлээ багаараа хамтран хийнэ.
 - Хичээлийн төгсгөлд хамгийн сайн хамтран ажиллаж веб бүтээсэн багийг шагнана.
 
-![Alt text](image-3.png)
+Жишээ сайт:
+
+1. https://ariuq.github.io/web-mba/index.html
+2. https://www.wix.com/website-template/view/html/2839
+   ![Alt text](image-3.png)
+   ![Alt text](image.png)
