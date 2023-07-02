@@ -13,7 +13,6 @@
 // 1.4 querySelector
 // const result = document.querySelector('ul')
 
-
 // 2. Style change
 // const title = document.querySelector('#title')
 // title.style.color = 'red'
@@ -96,16 +95,16 @@ for (let item of sportItems) {
 
 const list = document.querySelector('ul')
 
-const deleteButton = () => {}
+const deleteButton = () => { }
 
 const clickHandler = (event) => {
-    const target = event.target 
+    const target = event.target
     if (target.matches('span')) {
         target.setAttribute('contenteditable', true)
-    }   
+    }
     if (target.matches('i')) {
         event.target.parentElement.remove()
     }
 }
 
-list.addEventListener('click' , clickHandler)
+list.addEventListener('click', clickHandler)

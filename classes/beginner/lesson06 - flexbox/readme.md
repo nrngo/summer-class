@@ -1,25 +1,22 @@
-<!-- - Цээжлэх тоглоом: Хүний нэр, нас, ажил, хобби цээжлээд таана
-
-0. https://www.random.org/lists/
-1. 3, 3 аараа багт хуваагдана
-2. Бүгд нэг нэгээрээ нэр, нас, ажил (сургууль), хобби -гоо бүгдэнд нь танилцуулна
-3. Дуусаад дарааллаа сугалана.
-4. Дарааллын дагуу гарч ирээд хамгийн олон хүний мэдээлэл цээжилсэн нь хожно
-
-- Шагнал: Хос киноны тасалбар
-
-  <img src="image.png" alt="drawing" width="200"/>
-  <img src="image-1.png" alt="drawing" width="200"/>
-  <img src="image-2.png" alt="drawing" width="200"/> -->
-
 # Хичээл 06 - Flex box layout
 
-- display: flex
-- flex-direction : row | column
-- justify-content : start | end | center | evenly | between | around
-- align-items : start | end | center
+- Слайд: https://docs.google.com/presentation/d/1JRiDGUceWDv59nllVJCWTOuIuh2oYc-z1nUNOUc9FQc/edit?usp=sharing
+- Хичээлийн бичлэг: https://youtu.be/OuxzAJXEjo0
+
+### Flexbox layout
+
+- display: flex; (Доторхи элементүүдээ flex layout ашиглан удирдахыг зааж өгнө)
+- flex-direction: row | column (Үндсэн чиглэл буюу элементүүдээ хэвтээ (row) эсвэл босоо (column) чиглэл дагуу байрлуулахыг тодорхойлно)
+- justify-content: flex-start | flex-end | center | space-around | space-between (Үндсэн чиглэлийн дагуу удирдан)
+- align-items: flex-start | flex-end | center | space-around | space-between (Эсрэг чиглэлийн дагуу удирдан)
 - flex-wrap : nowrap | wrap
-- flex: 1
+
+### Flex-sizing
+
+- flex-basis: 10rem (initial size)
+- flex-grow: Зайг томорч эзлэх утга
+- flex-shrink: Зай агшихад жижигрэх утга (0,1)
+- flex: 1 - Товч бичиглэл
 
   ### Жишээ:
 
@@ -28,8 +25,3 @@
   ### Даалгавар
 
   ![Alt text](exercise.png)
-
-### Links
-
-- Slide url: https://docs.google.com/presentation/d/1JRiDGUceWDv59nllVJCWTOuIuh2oYc-z1nUNOUc9FQc/edit?usp=sharing
-- Video url: https://youtu.be/OuxzAJXEjo0
