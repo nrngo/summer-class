@@ -1,5 +1,7 @@
 # Хичээл 14: JS Давтлага
 
+- Хичээлийн бичлэг: https://youtu.be/8Bh2Dbe2st4
+
 - Алгоритм: Алгоритм үр дүнд хүрэх алхамуудын олонлог
 - Блок схем: http://www.flowgorithm.org/download/index.html
 
