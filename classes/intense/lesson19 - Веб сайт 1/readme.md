@@ -1,5 +1,6 @@
 # Хичээл 19 - Веб сайт эхлүүлэх
 
+Хичээлийн бичлэг: https://www.youtube.com/watch?v=EV0K7Jq4PO8
 Жишээ сайт:
 
 1. https://ariuq.github.io/web-mba/index.html
