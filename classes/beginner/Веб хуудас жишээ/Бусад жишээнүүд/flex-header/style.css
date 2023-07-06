@@ -1,0 +1,45 @@
+:root {
+  --color-black: #181818;
+  --color-white: #ffffff;
+  --color-gray: #a9a9a9;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background-color: var(--color-black);
+}
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header div ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list li {
+  margin-left: 5rem;
+  list-style-type: none;
+}
+.list li a {
+  text-decoration: none;
+  color: var(--color-gray);
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+li a:hover {
+  color: var(--color-white);
+  font-size: 20px;
+}
+.Logo img {
+  width: 10em;
+}
+.search_form {
+  margin-right: 1rem;
+  fill: var(--color-white);
+}
