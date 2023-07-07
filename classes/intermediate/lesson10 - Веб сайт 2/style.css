@@ -1,14 +1,16 @@
 :root {
+  --color-primary: #8f1b1b;
   --color-black: #000000;
   --color-white: #ffffff;
   --color-orange: #f2ad4d;
 }
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 h1 {
-  font-size: 60px;
+  font-size: 50px;
+  color: var(--color-primary);
 }
 p {
   font-family: "Raleway", sans-serif;
