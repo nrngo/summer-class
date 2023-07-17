@@ -10,3 +10,6 @@
 7.  [howto_css_flip_box](https://www.w3schools.com/howto/howto_css_flip_box.asp)
 8.  [Background animation](https://codepen.io/alvarotrigo/pen/MWqqBXX)
 9.  [Text Background animation](https://codepen.io/alvarotrigo/pen/poOOZYZ)
+
+10. @Ariuka custom cursor pointer - https://www.youtube.com/watch?v=Dwek1jNX71Q
+11. @Ariuka vector animation on mouse movement - http://jamuha.com/
