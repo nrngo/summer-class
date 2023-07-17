@@ -6,7 +6,7 @@
 
 ### 3. Overflow : visible, hidden, scroll, auto, overflow-x & y
 
-### 4. Units : relative, absolute
+### 4. Units : px, rem, vh, vw, ...
 
 ### 5. Position : relative, absolute, fixed
 

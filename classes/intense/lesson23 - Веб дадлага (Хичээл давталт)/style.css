@@ -1,0 +1,35 @@
+/* TAG selection */
+h1 {
+  font-size: 30px;
+  color: #343434;
+}
+/* Class selection */
+.class-name {
+}
+/* ID selection */
+.id-name {
+}
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  overflow: scroll;
+}
+html {
+  font-size: 12px;
+}
+p {
+  font-size: 1rem;
+}
+.container {
+  display: flex;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+  p {
+    font-size: 15px;
+  }
+}
