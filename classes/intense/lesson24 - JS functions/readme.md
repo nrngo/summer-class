@@ -1,6 +1,8 @@
 # Javascript функцтай ажиллах нь
 
-1. Arguments - Параметр
+## Хичээлийн бичлэг: https://youtu.be/erj5btotdQY
+
+### 1. Arguments - Параметр
 
 ```sh
 const sum = (x,y) =>{
@@ -14,7 +16,7 @@ sum(3,2,5,4)
 # Үр дүн: 5 буюу эхний 2 утгийг аваад бусдыг ашиглахгүй
 ```
 
-2. Rest operators: ...args буюу гаднаас өгч буй оролтуудыг массив хэлбэрээр хүлээн авна
+### 2. Rest operators: ...args буюу гаднаас өгч буй оролтуудыг массив хэлбэрээр хүлээн авна
 
 ```sh
 const sum = (...args) => {
@@ -31,7 +33,7 @@ console.log(sum(1, 2, 3, 4))
 
 ```
 
-3. Default parameters - Анхны утгатай параметр
+### 3. Default parameters - Анхны утгатай параметр
 
 ```sh
 const getBill = (orders = [], tipPercentage = 5, badService = false)=> {
@@ -57,7 +59,7 @@ console.log(result);
 
 ```
 
-4. Try and Catch: Алдаа барьж авах
+### 4. Try and Catch: Алдаа барьж авах
 
 ```sh
 const getBill = (orders = [], tipPercentage = 5, badService = false) => {
@@ -89,7 +91,7 @@ const result = getBill(null, 10, true);
 console.log(result);
 ```
 
-5. Local vs Global scope: Хамрах хүрээ
+### 5. Local vs Global scope: Хамрах хүрээ
 
 ```sh
 var globalVariable = 'I am a global variable';
@@ -103,8 +105,9 @@ console.log(globalVariable); // Output: I am a global variable
 console.log(localVariable); // Error: localVariable is not defined
 ```
 
-6. This keyword:
-   "this" объектын аргын хүрээнд ашиглах үед тухайн объектыг өөрөө хэлнэ. Үүний утгыг тухайн аргыг дуудах үед тодорхойлно.
+### 6. This keyword:
+
+"this" объектын аргын хүрээнд ашиглах үед тухайн объектыг өөрөө хэлнэ. Үүний утгыг тухайн аргыг дуудах үед тодорхойлно.
 
 ```sh
 const person = {
