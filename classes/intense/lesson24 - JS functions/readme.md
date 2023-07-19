@@ -139,8 +139,15 @@ person.sayHello(); // Output: Сайн уу, намайг Баясгалан г�
 
 Оролт:
 
-- getArea( 'circle' , {radius:1}) => PI \* radius \*\* 2 = 3.14
-- getArea( 'rectangle' , {length:10, width:5}) => length \* width = 50
+```sh
+getArea( 'circle' , 1});
+// Үр дүн: 3.14
+// Томъёо: (PI \* radius \*\* 2)
+getArea( 'rectangle' , 10,5)
+// Үр дүн: 50
+// Томъёо: length \* width
+
+```
 
 4. USD,EUR,YEN валютыг төгрөгруу хөрвүүлдэг convert нэртэй функц бичнэ үү.
    Жич:
