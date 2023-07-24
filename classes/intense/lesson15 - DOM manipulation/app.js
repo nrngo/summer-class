@@ -1,4 +1,17 @@
 // 1. Element selecting
+const MyComponent = () => {
+
+    return <div>
+        <h1>Миний </h1>
+    </div>
+}
+import React from 'react'
+
+const App = () => {
+    return (
+        <div>App</div>
+    )
+}
 
 // 1.1 Id 
 // DOM => Document Object Model 
