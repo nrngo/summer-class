@@ -1,4 +1,25 @@
-# Хичээл 27 - React эхлүүлцгээе
+# Хичээл 11 - Веб шалгаруулалт & React intro
+
+## Веб шалгаруулалт
+
+Үнэлгээ:
+
+1. Багийн гишүүдийн ирц - (Багийн гишүүдийн ирцийг дундажлана) 1.5
+2. Веб сайтыг загвар, хийцийн хувьд үнэлэх: 6 оноо
+
+- Дизайн оноо /2 оноо/
+- Ажиллагаа: Алдаагүй, бүрэн бүтэн эсэх /2 оноо/
+- Responsive: Утсан дээр эвдрэлгүй байх /1.5 оноо/
+- Animation: Анимэйшн, эффект ашигласан эсэх /0.5 оноо/
+
+3. Эмх цэгц: Хавцаслалт болон код /1 оноо/
+4. CSS бичиглэл: /1.5 оноо/
+
+- Variable: /0.5/
+- Seperation concept: /0.5/
+- Fonts: /0.5/
+
+### Нийт оноо: 10
 
 ## React гэж юу вэ?
 
@@ -68,3 +89,70 @@ const App = () => {
     )
 }
 ```
+
+## React апп хийхэд шаардлагатай JS ээ эргэн сэргээцгээе
+
+1. let / const
+2. Objects:
+
+```sh
+const car = {
+  brand:'Toyota',
+  name: 'Prius',
+  price: 2000000,
+  stop: ()=>{},
+  move: ()=>{},
+}
+
+car.move();
+car.stop();
+console.log(car.price);
+car.price = 1000000
+console.log(car["price"]);
+
+```
+
+3. Arrow functions
+4. Array map давталт
+5. Object Destructure
+
+```sh
+const car = {
+  brand:'Toyota',
+  name: 'Prius',
+  price: 2000000,
+  stop: ()=>{},
+  move: ()=>{},
+}
+# const brand = car.brand;
+# const name = car.name;
+# const price = car.price;
+
+const {brand, name, price} = car
+```
+
+6. Spread operator
+
+```sh
+const numbers1 = [1,2,3]
+const numbers2 = [4,5,6]
+
+# const combined = numbers1.concat(numbers2)
+const combined = [...numbers1,...numbers2]
+
+// Object
+
+const obj1 = {
+  name: 'Bayasgalan',
+}
+const obj2 = {
+  gender: 'Male',
+}
+
+const obj = {...obj1, ...obj2}
+
+
+```
+
+7. Modules
+8. Named and Default
