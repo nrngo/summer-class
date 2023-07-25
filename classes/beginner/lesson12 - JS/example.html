@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-         // Алхам 1
-     let billAmount = prompt("Та тооцооны дүнг оруулна уу?: ₮");
-     let tipPercentage = prompt(
-       "Та өгөхийг хүсэж буй гарын мөнгөний (tip) хувь оруулна уу?: ₮"
-     );
+      // Data Type: Number, String, Boolean..
+      // let , const
+      let pi = 3.14;
+      pi = 3.18;
+      let x = 5;
+      let age = 14;
+      let name = "Delgermurun";
+      const sportsFan = false;
+      // Array
+      let array = [1, 2, 3, 4, 5, 6];
+      // console.log(array[3] + array[5]);
+      // Object
+      const car = {
+        brand: "Toyota",
+        name: "Prius 30",
+        price: 20000000,
+        isNew: false,
+      };
+      const fieldName = "brand";
+      // Functions
+      // f(1)= x*x + 2*x -1  = 2
+      // f(2)= x*x + 2*x -1  = 7
+      // f(3)= x*x + 2*x -1  = 14
+      const squareFunction = (x) => {
+        return x * x + 2 * x - 1;
+      };
+      const hariu = squareFunction(3);
+      // console.log(hariu);
 
-     // Алхам 2
-     billAmount = parseFloat(billAmount);
-     tipPercentage = parseFloat(tipPercentage);
-
-     // Алхам 3
-     let tipAmount = billAmount * (tipPercentage / 100);
-
-     // Алхам 4
-     let totalBill = billAmount + tipAmount;
-     let result =
-       "Таны нийт тооцоо (гарын мөнгө орсон): ₮" + totalBill.toFixed(2);
-     // Алхам 5
-     console.log(result);
-     alert(result);
+      // kvadrat: 3 => 9
+      // kvadrat: 6 => 36
+      // kvadrat: 12 => 144
+      // kvadrat: 13 => 169
+      // kvadrat: 16 => 256
+      const kvadrat = (x) => {
+        return x * x;
+      };
+      const hariu1 = kvadrat(16);
+      console.log(hariu1);
     </script>
     <div>Hello</div>
-</body>
+  </body>
 </html>
