@@ -5,11 +5,9 @@ const car = {
     stop: () => { },
     move: () => { },
 }
-// const brand = car.brand
-// const name = car.name
+
 // const price = car.price
-const { price } = car
-console.log(price)
+const { price, stop } = car
 // const sum = (a, b) => {
 //     return a + b
 // }
