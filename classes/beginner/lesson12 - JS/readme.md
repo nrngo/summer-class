@@ -12,11 +12,28 @@
 3. Дасгал ажил (90-120 минут):
 
    1. Тус бүр 0.5 оноо:
+
       - Дараах өгөгдөлүүдийг төрлөөр нь ялга:
         "Hello", true, "Name", 33, "90", 90+77, "codely"+"academy", false, 1655/5, "javascript"
+
+        ```sh
+         console.log("Hello",  )
+         console.log(true,  )
+         console.log("Name",  )
+         console.log(33,  )
+         console.log("90",  )
+         console.log(90+"77",  )
+         console.log("codely"+"academy",  )
+         console.log(false,  )
+         console.log(1655/5,  )
+         console.log("javascript",  )
+
+        ```
+
       - Найз чинь үдэшлэг зохион байгуулж байгаа бөгөөд хүн бүрийг 2 бөмбөлөг хөөргөхийг хүсч байна. Анх 15 хүн ирж байсан ч  
          дараа нь 9 хүн урьсан бол нийт хэдэн бөмбөлөг хэрэгтэй вэ? condole.log() ашиглаарай.
       - Нэр, нас, хоббигоо тус тусад нь 1 хувьсагчид хадгалан бүгдийг нь console.log() ашиглан хараарай.
+
    2. Тус бүр 1 оноо:
       - const secondsInAMinute=60;
         const minutesInAHour=60;
