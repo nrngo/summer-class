@@ -8,7 +8,7 @@
 6. Жаргалбаяр
 7. Нарангэрэл
 8. Шинэбаяр: [Энд дарж үзнэ](https://shinebayar04.github.io/Project-1)
-9. Баянбилэг
+9. Баянбилэг [Энд дарж үзнэ](https://bayanbeleg.github.io/portfolio/)
 10. Азжаргал
 11. Соёмбо
 12. Жаргалсайхан: [Энд дарж үзнэ](https://jargalsaih.github.io/web/)

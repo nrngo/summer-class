@@ -66,47 +66,52 @@ const obj = {...obj1, ...obj2}
 
   - export нь дотроо 2 төрөл байдаг:
 
-        1. Named Exports:
+    1. Named Exports:
 
-        ```sh
-        // functions.js
-        export const add = (a, b) =>{
-          return a + b;
-        }
-        export const subtract = (a, b) => {
-          return a - b;
-        }
+    ```sh
+    // functions.js
+    export const add = (a, b) =>{
+      return a + b;
+    }
+    export const subtract = (a, b) => {
+      return a - b;
+    }
 
-        ```
+    ```
 
-        - import хийх: Энэ түлхүүр үг нь функц, объект эсвэл хувьсагчийг оруулж ирж ашиглах боломжийг олгоно.
+    - import хийх: Энэ түлхүүр үг нь функц, объект эсвэл хувьсагчийг оруулж ирж ашиглах боломжийг олгоно.
 
-        ```sh
-        // main.js
-        import { add, subtract } from './functions.js';
+    ```sh
+    // main.js
+    import { add, subtract } from './functions.js';
 
-        console.log(add(2, 3)); // Output: 5
-        console.log(subtract(5, 2)); // Output: 3
-        ```
+    console.log(add(2, 3)); // Output: 5
+    console.log(subtract(5, 2)); // Output: 3
+    ```
 
-        2. Default Export:
+    2. Default Export:
 
-        ```sh
-        // functions.js
-        const sumFunction = (a, b) =>{
-          return a + b;
-        }
-        // Экспорт хийх
-        export default sumFunction;
+    ```sh
+    // functions.js
+    const sumFunction = (a, b) =>{
+      return a + b;
+    }
+    // Экспорт хийх
+    export default sumFunction;
 
 
-        // main.js
-        // Импорт хийх
-        import sumFunction from './functions.js';
-        sumFunction(); // Функцийг дуудах
+    // main.js
+    // Импорт хийх
+    import sumFunction from './functions.js';
+    sumFunction(); // Функцийг дуудах
+    ```
 
 ## Даалгавар
 
 1. Дараах холбоос дээрхи датаг ашиглан зурагны жагсаалтыг дэлгэцэнд харуулна уу. Photo нэртэй компонент үүсгэж ашиглана
 
 - Дата: https://jsonplaceholder.typicode.com/photos
+
+```
+
+```
