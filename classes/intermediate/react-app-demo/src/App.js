@@ -6,7 +6,6 @@ import { userListData, myListData } from './constants';
 function App() {
   // 1. State: Компонент төлөв
   // 2. Props: Компонент гаднаас орж ирэх утга
-
   const [taskList, setTaskList] = useState([])
   const onTaskAdd = (text) => {
     console.log("onTaskAdd function", text)
