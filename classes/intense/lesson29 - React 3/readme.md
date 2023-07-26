@@ -1,5 +1,7 @@
 # React 3: TODO апп хийж үзэцгээе
 
+## TODO APP code: https://github.com/Codely-academy/React-lesson
+
 ![Alt text](image-1.png)
 
 1. Компонент-д хуваах
