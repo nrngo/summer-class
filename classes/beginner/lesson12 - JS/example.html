@@ -49,13 +49,15 @@
       const hariu1 = kvadrat(16);
       console.log(hariu1);
 
+      calculatePizza = (naiziinToo, zusemPizzaniiToo) => {
+         let totalSliceNeeded= (naiziinToo+1)*2;
+         let hangalttaiPizzaBaigaaYu= zusemPizzaniiToo>=totalSliceNeeded;
+         let pizzaZahialahuu= hangalttaiPizzaBaigaaYu? "zahialna":"zahialahgui";
+         return "Niit heregtei pizzanii too:" + totalSliceNeeded + " Pizza: "+pizzaZahialahuu;
+      } ;
+console.log(calculatePizza(5,8));
 
-      const math = (too) => {
-        return too*too+10;
-      }
 
-      const hariu = math(3);
-      console.log(hariu);
 
     </script>
     <div>Hello</div>
