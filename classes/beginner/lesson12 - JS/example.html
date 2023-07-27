@@ -7,58 +7,128 @@
   </head>
   <body>
     <script>
-      // Data Type: Number, String, Boolean..
-      // let , const
-      let pi = 3.14;
-      pi = 3.18;
-      let x = 5;
-      let age = 14;
-      let name = "Delgermurun";
-      const sportsFan = false;
-      // Array
-      let array = [1, 2, 3, 4, 5, 6];
-      // console.log(array[3] + array[5]);
-      // Object
-
-      const car = {
-        brand: "Toyota",
-        name: "Prius 30",
-        price: 20000000,
-        isNew: false,
+      // Нохой нь хүнээс илүү хурдан өсөж торнидог. Өөрөөр хэлбэл нохойны ертөнцөд цаг хугацаа арай хурдан өнгөрдөг гэж болно.
+      // Хүний 8 нас нохойны 45 настай тэнцдэг байна. Хүний насыг нохойны нас руу шилжүүлдэг convertDogAge() функц үүсгээрэй.
+      // Өөрийн насаа нохойны нас руу шилжүүлэхэд анхаарах зүйлс:
+      // Хүний эхний 2 нас тус бүр нохойны хувьд 10.5 насаар тооцдог.
+      // Хүний эхний 2оос бусад насыг тус бүр нохойны хувьд 4 насаар тооцдог.
+      // myAge хувьсагч функцад гаднаас орж ирнэ.
+      // myAgeInADogYears хувьсагчийн утгыг javascript-ээр бодуулж олоорой.
+      // функц нь "Би хүний ертөнцөд myAge настай, нохойны ертөнцөд myAgeInDogYears настай." гэсэн зүйл буцаадаг байна. Жишээ нь: console.log(convertDogAge(8)) байвал console дээр 45 гэж гарна.
+      const convertDogAge = (humanAge) => {
+        // 2 * 10.5 + humanAge * 4 => 53
+        // Хүний насыг нохойны насруу хөрвүүлнэ
+        let myAgeInDogYears = 2 * 10.5 + (humanAge - 2) * 4;
+        const hariu =
+          "Би хүний ертөнцөд=" +
+          humanAge +
+          "настай, нохойны ертөнцөд=" +
+          myAgeInDogYears +
+          " настай.";
+        console.log(hariu);
       };
+      convertDogAge(10);
+      convertDogAge(20);
+      // // f(x): x *x + 2*x -1
+      // // f(5): 5 * 5 + 2*5 -1 => 34
+      // // f(100): 100 * 100 + 2*100 -1 => 10199
+      // const kvadrat = (x) => {
+      //   const hariu = x * x + 2 * x - 1;
+      //   return hariu;
+      // };
+      // const result = kvadrat(5);
+      // const result1 = kvadrat(100);
+      // console.log(result1);
 
-      const fieldName = "brand";
-      // Functions
-      // f(1)= x*x + 2*x -1  = 2
-      // f(2)= x*x + 2*x -1  = 7
-      // f(3)= x*x + 2*x -1  = 14
-      const squareFunction = (x) => {
-        return x * x + 2 * x - 1;
-      };
-      // const hariu = squareFunction(3);
-      // console.log(hariu);
+      // let loveFruit = ["love", "fruit", "I"];
+      // массив дээр байгаа элементүүдийг зөв дараалалд оруулан өгүүлбэр зохиогоорой.
+      // const text = loveFruit[2] + " " + loveFruit[0] + " " + loveFruit[1];
+      // console.log(text);
 
-      // kvadrat: 3 => 9
-      // kvadrat: 6 => 36
-      // kvadrat: 12 => 144
-      // kvadrat: 13 => 169
-      // kvadrat: 16 => 256
-      const kvadrat = (x) => {
-        return x * x;
-      };
-      const hariu1 = kvadrat(16);
-      console.log(hariu1);
+      // let seconds = {
+      //   secondsInAMinute: 60,
+      //   minutesInAHour: 60,
+      //   hoursInADay: 24,
+      // };
+      // гэж өгөгдсөн бол -secondsInAHour(1 цагт хэдэн секунд байгааг), -
+      // secondsInADay(1 өдөрт хэдэн секунд байгааг) тус тус олоод console.log() дээр харуулаарай.
+      // const secondsInAHour = seconds.secondsInAMinute * seconds.minutesInAHour;
+      // const secondsInADay = secondsInAHour * seconds.hoursInADay;
+      // console.log(secondsInAHour, secondsInADay);
 
-      calculatePizza = (naiziinToo, zusemPizzaniiToo) => {
-         let totalSliceNeeded= (naiziinToo+1)*2;
-         let hangalttaiPizzaBaigaaYu= zusemPizzaniiToo>=totalSliceNeeded;
-         let pizzaZahialahuu= hangalttaiPizzaBaigaaYu? "zahialna":"zahialahgui";
-         return "Niit heregtei pizzanii too:" + totalSliceNeeded + " Pizza: "+pizzaZahialahuu;
-      } ;
-console.log(calculatePizza(5,8));
+      // Нэр, нас, хоббигоо тус тусад нь 1 хувьсагчид хадгалан бүгдийг нь console.log() ашиглан хараарай.
+      // const name = "Ner";
+      // const age = 20;
+      // const hobby = "Basketball";
+      // console.log("name=" + name, "age=" + age, "hobby=" + hobby);
 
+      // Найз чинь үдэшлэг зохион байгуулж байгаа бөгөөд хүн бүрийг 2 бөмбөлөг хөөргөхийг хүсч байна.
+      // Анх 15 хүн ирж байсан ч дараа нь 9 хүн урьсан бол нийт хэдэн бөмбөлөг хэрэгтэй вэ?
+      // console.log() ашиглаарай.
+      // let anh = 15;
+      // let daraa = 9;
+      // const hariu = (anh + daraa) * 2;
+      // console.log("hariu ", hariu);
 
+      // console.log("Hello", "string");
+      // console.log(true, "boolean");
+      // console.log("Name", "string");
+      // console.log(33, "number");
+      // console.log("90", "string");
+      // console.log(90 + "77", "string");
+      // console.log("codely" + "academy", "string");
+      // console.log(false, "boolean");
+      // console.log(1655 / 5, "number");
+      // console.log("javascript", "string");
+      //       // Data Type: Number, String, Boolean..
+      //       // let , const
+      //       let pi = 3.14;
+      //       pi = 3.18;
+      //       let x = 5;
+      //       let age = 14;
+      //       let name = "Delgermurun";
+      //       const sportsFan = false;
+      //       // Array
+      //       let array = [1, 2, 3, 4, 5, 6];
+      //       // console.log(array[3] + array[5]);
+      //       // Object
 
+      //       const car = {
+      //         brand: "Toyota",
+      //         name: "Prius 30",
+      //         price: 20000000,
+      //         isNew: false,
+      //       };
+
+      //       const fieldName = "brand";
+      //       // Functions
+      //       // f(1)= x*x + 2*x -1  = 2
+      //       // f(2)= x*x + 2*x -1  = 7
+      //       // f(3)= x*x + 2*x -1  = 14
+      //       const squareFunction = (x) => {
+      //         return x * x + 2 * x - 1;
+      //       };
+      //       // const hariu = squareFunction(3);
+      //       // console.log(hariu);
+
+      //       // kvadrat: 3 => 9
+      //       // kvadrat: 6 => 36
+      //       // kvadrat: 12 => 144
+      //       // kvadrat: 13 => 169
+      //       // kvadrat: 16 => 256
+      //       const kvadrat = (x) => {
+      //         return x * x;
+      //       };
+      //       const hariu1 = kvadrat(16);
+      //       console.log(hariu1);
+
+      //       calculatePizza = (naiziinToo, zusemPizzaniiToo) => {
+      //          let totalSliceNeeded= (naiziinToo+1)*2;
+      //          let hangalttaiPizzaBaigaaYu= zusemPizzaniiToo>=totalSliceNeeded;
+      //          let pizzaZahialahuu= hangalttaiPizzaBaigaaYu? "zahialna":"zahialahgui";
+      //          return "Niit heregtei pizzanii too:" + totalSliceNeeded + " Pizza: "+pizzaZahialahuu;
+      //       } ;
+      // console.log(calculatePizza(5,8));
     </script>
     <div>Hello</div>
   </body>
