@@ -1,12 +1,85 @@
 # Lesson13 - JS Basic
 
 0. Бодлого тайлбар - 5 минут
-1. Kahoot link, code (10 минут): link
-
+1. Kahoot-тэй танилцуулах хост линк: https://create.kahoot.it/details/739c6780-b383-463f-9a9c-c9d1d9214fab
+   Kahoot link: https://kahoot.it/
 - 3 оноо
 
 1. Лекц (30 минут):
-   https://docs.google.com/presentation/d/1iK7fVvSZX0UncitkaDgfRQBajsxWlxXxBOmEIwRbtOI/edit?usp=sharing
+   ## Хичээлийн бичлэг:
+
+   https://youtu.be/NtcwzDl1fls
+
+   ### Арифметик үйлдлүүд
+
+   ` x=3, y=2`
+
+   - x + y
+   - x - y
+   - x \* y
+   - x / y
+   - x % y
+   - x \*\* y
+   - x++, ++x => x = x + 1
+   - x--, --x => x = x - 1
+
+   ### Assignment Operators
+
+   - x = x + 3 болон x += 3 адилхан
+   - x = x \* 3 болон x \*= 3 адилхан
+   Бусад бүх арифметик үйлдлүүд адилхан үйлчилнэ
+
+   ### Жиших үйлдлүүд (Comparison Operators)
+
+   `x = 3`
+
+   - x > 3 `=> false`
+   - x >= 3 `=> true`
+   - x < 3 `=> false`
+   - x <= 3 `=> true`
+   - x === 3 `=> true` (Төрөл + утга), x == 3 (Зөвхөн утга)
+   - x !== 3 `=> false`
+
+   #
+
+   - x === 3 (Төрөл + утга)
+   - x == 3 (Зөвхөн утга):
+
+   ### Гурвалсан үйлдлүүд
+
+   ```sh
+   let age = 16;
+   const isAdult = age >= 18 ? 'Насанд хүрсэн' : 'Насанд хүрээгүй';
+   // Үр дүн: 'Насанд хүрээгүй'
+   ```
+
+   ### Логик үйлдлүүд
+
+   - && : and буюу бүгд биелэж байх үед "үнэн" 
+   - || : or буюу аль нэг нь л биелэх үед "үнэн"
+
+   ```sh
+   const skills = {
+   frontend: true,
+   backend: true,
+   };
+   # Ажлын зар fullstack хөгжүүлэгч авна
+   let isFullstack = skills.frontend && skills.backend;
+   # Үгүйсгэл (!)
+   let notAccepted = !isFullstack
+
+   # frontend, backend хөгжүүлэгч авна:
+   let isDeveloper = skills.frontend || skills.backend;
+   let notAccepted = !isDeveloper
+   ```
+
+   ### Logical Operators with Non-booleans
+
+   ```sh
+   false || true
+   false || 'text' =>
+   false || 1
+   ```
 
 2. Завсарлага (5-10 минут)
 
