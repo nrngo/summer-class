@@ -15,3 +15,10 @@
   width: 90vw;
   padding-bottom: 10px;
 }
+.toggle-btn {
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+.toggle-btn-on {
+  background-color: gold;
+}
