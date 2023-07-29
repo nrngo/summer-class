@@ -49,8 +49,12 @@ if (temperature > 30) {
 - default
 
 ```sh
-switch () {
-    case condition_1:
+let x = 5;
+switch (x) {
+    case 5:
+        console.log('condition_1 биелэх үед');
+        break;
+    case 6:
         console.log('condition_1 биелэх үед');
         break;
 
@@ -60,7 +64,7 @@ switch () {
 }
 
 
-let fruit = prompt("Жимсний нэр оруулна уу:");
+let fruit = "Banana"
 
 fruit = fruit.toLowerCase();
 
@@ -143,9 +147,9 @@ for (const key in fresh_meat) {
       console.log(key, fresh_meat[key]);
 }
 const fruits = ['Алим','Банана','Киви'];
-for (const key in fruits) {
+for (const fruit in fruits) {
     # ?
-    console.log(key);
+    console.log(fruit);
 }
 
 ```
