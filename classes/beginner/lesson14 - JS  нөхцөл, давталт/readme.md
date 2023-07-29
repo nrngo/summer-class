@@ -1,4 +1,4 @@
-# Lesson13 - JS Basic
+# Lesson14 - JS Basic
 
 0. Бодлого тайлбар - 5 минут
 1. Kahoot-тэй танилцуулах хост линк: https://www.kahoot.it (pin:7029066)
