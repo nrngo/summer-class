@@ -1,136 +1,199 @@
 # Lesson13 - JS Basic
 
 0. Бодлого тайлбар - 5 минут
-1. Kahoot-тэй танилцуулах хост линк: https://create.kahoot.it/details/739c6780-b383-463f-9a9c-c9d1d9214fab
-   Kahoot link: https://kahoot.it/
+1. Kahoot-тэй танилцуулах хост линк: https://www.kahoot.it (pin:7029066)
 
 - 3 оноо
 
 1. Лекц (30 минут):
 
-   ## Хичээлийн бичлэг:
+## Хичээлийн бичлэг:
 
-   https://youtu.be/NtcwzDl1fls
+https://youtu.be/XHLmyO8jfsQ
 
-   ### Арифметик үйлдлүүд
-
-   ` x=3, y=2`
-
-   - x + y
-   - x - y
-   - x \* y
-   - x / y
-   - x % y
-   - x \*\* y
-   - x++, ++x => x = x + 1
-   - x--, --x => x = x - 1
-
-   ### Assignment Operators
-
-   - x = x + 3 болон x += 3 адилхан
-   - x = x \* 3 болон x \*= 3 адилхан
-     Бусад бүх арифметик үйлдлүүд адилхан үйлчилнэ
-
-   ### Жиших үйлдлүүд (Comparison Operators)
-
-   `x = 3`
-
-   - x > 3 `=> false`
-   - x >= 3 `=> true`
-   - x < 3 `=> false`
-   - x <= 3 `=> true`
-   - x === 3 `=> true` (Төрөл + утга), x == 3 (Зөвхөн утга)
-   - x !== 3 `=> false`
-
-   #
-
-   - x === 3 (Төрөл + утга)
-   - x == 3 (Зөвхөн утга):
-
-   ### Гурвалсан үйлдлүүд
-
-   ```sh
-   let age = 16;
-   const isAdult = age >= 18 ? 'Насанд хүрсэн' : 'Насанд хүрээгүй';
-   // Үр дүн: 'Насанд хүрээгүй'
-   ```
-
-   ### Логик үйлдлүүд
-
-   - && : and буюу бүгд биелэж байх үед "үнэн"
-   - || : or буюу аль нэг нь л биелэх үед "үнэн"
-   - ! : not буюу үнэн үед "худал", худал үед "үнэн"
-
-     ![Logic operators](image.png)
-
-   ```sh
-   const skills = {
-   frontend: true,
-   backend: true,
-   };
-   # Ажлын зар fullstack хөгжүүлэгч авна
-   let isFullstack = skills.frontend && skills.backend;
-   # Үгүйсгэл (!)
-   let notAccepted = !isFullstack
-
-   # frontend, backend хөгжүүлэгч авна:
-   let isDeveloper = skills.frontend || skills.backend;
-   let notAccepted = !isDeveloper
-   ```
-
-   ### Logical Operators with Non-booleans
-
-   ```sh
-   false || true
-   false || 'text' =>
-   false || 1
-   ```
-
-2. Завсарлага (5-10 минут)
-
-3. Дасгал ажил (90-120 минут):
-
-   
-- Тус бүр 0.5 оноо:
-
-   1. Хувьсагчийн байрыг солих
-
-   2. Өгөгдсөн илэрхийллийн утгыг ол. A=B\*C-D
-      B, C, D утгийг гараас авна
-
-   3. Дасгал 3: Гараас хоног, цаг өгсөн бол нийт цаг хэд вэ?
-
-- Тус бүр 1 оноо:
-   4. Гараас 0-100 хооронд оноо өгөх бөгөөд тухайн оноо нь ямар дүн авсныг хэвлэж үзүүлэх "checkPoint" функц зохио :
-
-      - 90 : 'A'
-      - 80 - 89: 'B'
-      - 70 - 79: 'C'
-      - 60 - 69: 'D'
-      - < 60 : 'F'
-      гэж хэвлэнэ
-
-      - checkPoint(81) ==> Үр дүн: B
-      - checkPoint(96) ==> Үр дүн: A
-   5. 2 тооны ихийг олж буцаадаг функц жиших оператор ашиглан бичээрэй.
-         input: max(5,10);
-         output: 10;
-
-- Тус бүр 2.5 оноо:
-
-   6.  Миа-д пиццаны үдэшлэг зохион байгуулахад тусалж, түүний бүх найзуудад хангалттай пицца байгаа эсэхийг шалгаад дахин пицца захиалах үгүйг тодорхойлдог дараах функцийг гүйцээгээрэй.
-   - Миа найзуудтайгаа пиццаны үдэшлэг хийхээр төлөвлөж байгаа.
-   - Хүн бүр(Миаг оруулаад) 2 зүсэм пицца хүсэж байв.
-   - Үдэшлэгт нийт хэдэн зүсэм пицца хэрэгтэй вэ?
-   - Нэмж пицца захиалах хэрэгтэй юу?
-   - Хариугаа console.log дотор хэвлэж хараарай.
-         input: calculatePizza(6,8);
-         output: 14, zahialna;
+### if else
 
 ```sh
-calculatePizza = (naiziinToo, baigaaZusemPizzaniiToo) => {
-   #функцийг хэрэгжүүлээрэй.
-};
+if(condition_1)
+    console.log('condition_1 биелэх үед');
+else if(condition_2){
+    console.log('condition_2 биелэх үед.');
+    ...
+}
+else
+    console.log('Өмнөх нөхцөлүүд биелэхгүй үед ажиллана.');
+
+let temperature = prompt("Өнөөдрийн температур оруулна уу:");
+
+// Гараас өгсөн утгийг тооруу хөрвүүлэх
+temperature = parseFloat(temperature);
+
+if (temperature > 30) {
+  console.log("Маш халуун өдөр байна, ус сайн уугаарай");
+} else if (temperature >= 20 && temperature <= 30) {
+  console.log("Дажгүй өдөр байна!");
+} else if (temperature < 20) {
+  console.log("Тийм ч дулаахан биш байна");
+} else {
+  console.log("Буруу температур оруулсан байна.");
+}
+
+```
+
+Жишээ 1: Тухайн цагаас хамаарч мэнд мэдэх нөхцөл шалгах
+
+### switch case
+
+- case
+- break
+- default
+
+```sh
+switch () {
+    case condition_1:
+        console.log('condition_1 биелэх үед');
+        break;
+
+    default:
+        console.log('Өмнөх нөхцөлүүд биелэхгүй үед ажиллана.');
+        break;
+}
+
+
+let fruit = prompt("Жимсний нэр оруулна уу:");
+
+fruit = fruit.toLowerCase();
+
+switch (fruit) {
+    case "apple":
+    console.log("Apples are crunchy and delicious.");
+    break;
+    case "banana":
+    console.log("Bananas are a great source of potassium.");
+    break;
+    case "orange":
+    console.log("Oranges are refreshing and packed with vitamin C.");
+    break;
+    case "strawberry":
+    console.log("Strawberries are sweet and perfect for desserts.");
+    break;
+    default:
+    console.log("That's an interesting fruit choice!");
+    break;
+}
+```
+
+### Давталт
+
+- For давталт
+
+```sh
+for (let i = 0; i <= 10; i++) {
+    # 1. i = 0
+    # 2. i < 10 байна уу шалгаад худлаа бол үргэлжилнэ
+    # 3. i++ буюу i утга нэмэгдүүлээд дараагийн алхамд шилжинэ
+    console.log("Давталт №", i);
+}
+```
+
+- While давталт - 'while' доторхи нөхцөл биелэж байх үед ажиллана
+
+```sh
+let i;
+while (i <= 10) {
+    if(i % 2 === 0) console.log(i);
+    i++;
+}
+```
+
+- Do...while давталт - Эхлээд 'do' доторхи үйлдэл ажлаад дараа нь 'while' нөхцөл биелэж байна уу шалгана
+
+```sh
+let i =0;
+do {
+    if(i % 2 === 0) console.log(i);
+    i++;
+} while (i<= 10);
+```
+
+- Хязгааргүй давталт
+
+```sh
+  for(let i=0; true; i++) {}
+  while(true){}
+  do{} while(true)
+
+  let i =0;
+  while (i <= 10) {
+    if(i % 2 === 0) console.log(i);
+  }
+
+```
+
+- For...in давталт: Тухайн object болон array-ийн properties (key, index)-р давтана
+
+```sh
+const fresh_meat = {
+    name: "Үхрийн мах",
+    price: 20000,
+    protein: '26 грам'
+}
+
+for (const key in fresh_meat) {
+      console.log(key, fresh_meat[key]);
+}
+const fruits = ['Алим','Банана','Киви'];
+for (const key in fruits) {
+    # ?
+    console.log(key);
+}
+
+```
+
+- For...of болон forEach: Тухайн object болон array-ийн утгуудаар нь давтана
+
+```sh
+for (const fruit of fruits) {
+    # ?
+    console.log(key);
+}
+
+fruits.forEach(fruit => {
+
+});
+
+```
+
+- Break and Continue:
+
+```sh
+for (let i = 0; i <= 5; i++) {
+    # if(i % 2 === 0) break;
+    # if(i % 2 === 0)
+    # {
+    #     console.log(i);
+    #     continue;
+    # }
+}
+```
+
+### Дасгал:
+
+1. 2 тооны ихийг олоод дэлгэцэнд харуулна уу. Функц ашиглана
+2. Гараас тэгш өнцөгтийн өргөн, өндөр өгөх ба дүрс хэвтээ эсвэл босоо болохыг ол
+3. Гараас өгсөн тоо хүртлэх тэгш эсвэл сондгой тоог ол
+4. FizzBuzz: Гараас тоо оруулна.
+   /3 => Fizz
+   /5 => Buzz
+   /3/5 => FizzBuzz
+   !/3/5 => Input
+   Not number => 'Not number'
+5. Зам дээр хурд хэтрүүлсэн эсэхийг шалгана уу.
+   Хурдны дээд хязгаар 80км/цаг
+   Тухайн хурднаас 5км цаг хэтрэх бүрт 1 оноо хасах бөгөөд хэрэв 5 оноо алдах юм бол эрхээ хасуулна.
+   Оролт: Хурдны хэмжээ
+   Гаралт: Алдсан оноо эсвэл эрхээ хасуулсан эсэх
+
 ```
 
 6. Оноо цуглуулах:
@@ -140,10 +203,6 @@ calculatePizza = (naiziinToo, baigaaZusemPizzaniiToo) => {
 - Даалгавар биелүүлэх дээр оноо цуглуулна: 6 хүртэл (3 хялбар \* 0.5 + 2 дундаж \* 1 + 1 \* 2.5)
 - Бусдад мэдсэн зүйлсээ хуваалцсан тохиолдолд багшаас оноо авах боломжтой: 1
 
-5. Хичээл дуусахад чадаагүй бодлого байвал хэрхэн хийх талаар тайлбар, заавар текст, бичлэг авах боломжоор хангах. Оноо авахгүй. @task - ariud015@gmail.com
-6. Ил тод байдал: Онооны жагсаалт (Leaderboard) мөн урамшууллийн мэдээллийг ил, тодорхой байлгах. Өрсөлдөөн үүсгэх. Онооны жагсаалтаар жагсааж харуулна эхний 5 н сурагч харагдаадд бусад нь нууцлалтай өөрсдөө л байраа мэднэ. Тухайн сургалтын @task - ariud015@gmail.com Оноо хөтлөх болон харуулах
-   Оноогоор Тухайн насанд тохирсон байдлаар урамшуулах, боломж олгох.
-7. 1 өдрийн хичээлийн дүгнэлт:
-
 - Хугацаа: 2:20 - 2:50
 - Боломжит оноо: 10
+```
