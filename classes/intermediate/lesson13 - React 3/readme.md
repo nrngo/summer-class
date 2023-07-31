@@ -14,8 +14,6 @@
 - https://ant.design/docs/react/introduce
 - https://ant.design/docs/react/use-with-create-react-app
 
-4.
-
 5. BMI буюу биеийн массийн индекс харуулдаг апп хийцгээе
 6. Номин дэлгүүрээс бараа сонгож үнийг нь боддог апп хийцгээе: https://e-shop.nomin.mn/featured
    ![Alt text](image.png)
