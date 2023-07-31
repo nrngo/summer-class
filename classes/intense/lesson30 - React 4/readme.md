@@ -1,5 +1,7 @@
 # React 4: state буюу - төлөв дасгал ажил
 
+## Хичээлийн бичлэг: https://youtu.be/hwMyZJZ_uTs
+
 ## Toggle button код: https://github.com/Codely-academy/React-lesson/blob/codespace-codely-academy-silver-parakeet-v6gjx5qqxp42wpgv/src/components/Toggle.js
 
 ### Жишээ
