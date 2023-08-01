@@ -35,3 +35,8 @@ export default ToggleButton;
    Доорхи зурган дээрхи шиг Increment - Тоог 1 ээр нэмэгдүүлдэг, Decrement - Тоог 1 ээр хорогдуулдаг, Reset - Тоог анхны буюу 0 утгатай болгодог 3 товчноос бүрдэх counter component хийнэ үү.
 
    ![Alt text](image.png)
+
+2. BMI (Body mass index) буюу биеийн массийн индекс харуулдаг апп хийцгээе.
+   ![Alt text](image-2.png)
+
+   ![Alt text](image-3.png)
