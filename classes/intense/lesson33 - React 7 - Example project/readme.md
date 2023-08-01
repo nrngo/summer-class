@@ -1,5 +1,7 @@
 # Давтлага хичээл
 
+## Дасгалын код: https://github.com/Codely-academy/React-lesson/blob/codespace-codely-academy-silver-parakeet-v6gjx5qqxp42wpgv/src/components/ListFilter.js
+
 ## Props:
 
 - Properties буюу props нь компонентийн гаднаас авч буй оролтын утга юм.
@@ -28,9 +30,7 @@
 <Welcome name="Saraa" />;
 ```
 
-## Up state
-
-## Single source of truth
+## Up state , Single source of truth
 
 ## Children
 
