@@ -39,3 +39,30 @@
 .box:hover {
   background-color: orange;
 }
+
+.tsag-agaar-container {
+  border: 1px solid lightgray;
+  padding: 16px;
+}
+.tsag-agaar-container button {
+  font-size: 24px;
+  padding: 8px;
+}
+.tsag-agaar {
+  border: 1px solid lightgray;
+  padding: 16px;
+  margin-right: 16px;
+}
+.tsag-agaar p {
+  background-color: lightblue;
+  color: white;
+  font-size: 32px;
+}
+
+.flex-container {
+  display: flex;
+}
+.city-selected {
+  background-color: lightblue;
+  color: white;
+}
