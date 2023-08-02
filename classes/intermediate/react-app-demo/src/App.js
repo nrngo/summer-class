@@ -1,12 +1,8 @@
 import './App.css';
-import ToggleBtn from './components/ToggleBtn';
+import TicTac from './components/TIcTac';
 function App() {
   return <div>
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
+    <TicTac />
   </div>
 }
 
