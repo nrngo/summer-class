@@ -1,12 +1,10 @@
 import './App.css';
-import ToggleBtn from './components/ToggleBtn';
+import TicTac from './components/TIcTac';
+import TsagAgaar from './components/TsagAgaar';
 function App() {
   return <div>
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
-    <ToggleBtn />
+    {/* <TicTac /> */}
+    <TsagAgaar />
   </div>
 }
 
