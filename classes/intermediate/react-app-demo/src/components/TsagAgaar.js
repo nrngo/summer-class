@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { tsagAgaarData } from '../data/tsag-agaar-aimag-sum';
 import Day from './Day';
-const TsagAgaar = () => {
+const TsagAgaar = (props) => {
     const ubCity = tsagAgaarData[0];
     const darkhanCity = tsagAgaarData[1];
     const [city, setCity] = useState(ubCity);
@@ -26,7 +26,6 @@ const TsagAgaar = () => {
                 {city.data.weather.map(
                     (obj) => {
                         return <Day myFunction={onClick} data={obj} />
-
                     }
                 )}
             </div>

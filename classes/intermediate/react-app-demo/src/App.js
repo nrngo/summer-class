@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import './App.css';
-import TicTac from './components/TIcTac';
+import Child1 from './components/Child1';
+import Child2 from './components/Child2';
 import TsagAgaar from './components/TsagAgaar';
 function App() {
+  const [number, setNumber] = useState(0);
+  // number = 1
+  console.log("Parent", number)
   return <div>
-    {/* <TicTac /> */}
     <TsagAgaar />
   </div>
 }
