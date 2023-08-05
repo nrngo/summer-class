@@ -2,7 +2,7 @@
 
 Хичээлийн бичлэг: https://youtu.be/4wCuWinVtGI
 
-1. Element Selecting
+1. Element Selection
    - id
    - class
    - tag name
