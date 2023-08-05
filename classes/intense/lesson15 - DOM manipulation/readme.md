@@ -1,6 +1,12 @@
 # Хичээл 15: DOM manipulation - 1
 
-Хичээлийн бичлэг: https://youtu.be/4wCuWinVtGI
+0. Бодлого тайлбар - 5 минут
+1. Оноо ямар хэрэгтэй, яагаад цуглуулж байгааг тайлбарлах - 3 минут
+2. Kahoot-тэй танилцуулах хост линк: https://www.kahoot.it
+
+- 3 оноо
+
+## Хичээлийн бичлэг: https://youtu.be/4wCuWinVtGI
 
 1. Element Selecting
    - id
