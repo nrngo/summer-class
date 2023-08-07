@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="taasanToo" />
+    <button onclick="utgaAwahFunkts()">utga awah</button>
+    <p>Input-iin utga: <span id="utga"></span></p>
+
+    <script>
+      function utgaAwahFunkts() {
+        const randomToo = Math.floor(Math.random() * 1000) + 1;
+        const taasanToo = document.getElementById("taasanToo").value;
+        const utga = document.getElementById("utga");
+        utga.textContent = taasanToo;
+      }
+    </script>
+  </body>
+</html>
