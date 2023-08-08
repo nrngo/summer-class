@@ -2,14 +2,21 @@
 
 // 1.1 Id 
 // DOM => Document Object Model 
-const button = document.getElementById('button-1')
+// const button = document.getElementById('button-1')
 // console.log("button", button)
 // button.style.fontSize = '32px'
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+
 const addText = () => {
-    const container = document.querySelector('.container')
-    const newHeader = document.createElement('h1')
-    newHeader.innerHTML = `HELLOOO`
-    container.append(newHeader)
+    const input = document.getElementById("too")
+    const hariu = document.getElementById("hariu")
+
+    console.log("TOVCH DARLAAA", input.value)
+    hariu.innerHTML = input.value
+    // const container = document.querySelector('.container')
+    // const newHeader = document.createElement('h1')
+    // newHeader.innerHTML = `HELLOOO`
+    // container.append(newHeader)
 }
 
 // 1.2 class
@@ -61,57 +68,57 @@ const addText = () => {
 
 
 // Practice
-const addNewListItem = () => {
-    const list = document.querySelector('ul')
-    const newList = document.createElement('li')
-    newList.innerHTML = `
-        <span>New List Item</span>
-        <i class='fa fa-trash-o'></i>
-    `
-    newList.setAttribute('class', 'text-color')
-    newList.style.borderBlockColor = 'pink'
-    list.append(newList)
-}
+// const addNewListItem = () => {
+//     const list = document.querySelector('ul')
+//     const newList = document.createElement('li')
+//     newList.innerHTML = `
+//         <span>New List Item</span>
+//         <i class='fa fa-trash-o'></i>
+//     `
+//     newList.setAttribute('class', 'text-color')
+//     newList.style.borderBlockColor = 'pink'
+//     list.append(newList)
+// }
 
-const deleteLastListItem = () => {
-    const list = document.querySelectorAll('li')
-    list[list.length - 1].remove()
-}
+// const deleteLastListItem = () => {
+//     const list = document.querySelectorAll('li')
+//     list[list.length - 1].remove()
+// }
 
 
-const addButton = document.querySelector('button')
-addButton.addEventListener('click', addNewListItem)
+// const addButton = document.querySelector('button')
+// addButton.addEventListener('click', addNewListItem)
 
-const buttos = document.querySelectorAll('button')
+// const buttos = document.querySelectorAll('button')
 
-const sportItems = [
-    "Basketball",
-    "Golf",
-    "Football"
-]
+// const sportItems = [
+//     "Basketball",
+//     "Golf",
+//     "Football"
+// ]
 
-for (let item of sportItems) {
-    const list = document.querySelector('ul')
-    const newItem = document.createElement('li')
-    newItem.innerHTML = `
-        <span>${item}</span>
-        <i class='fa fa-trash-o'></i>
-    `
-    list.append(newItem)
-}
+// for (let item of sportItems) {
+//     const list = document.querySelector('ul')
+//     const newItem = document.createElement('li')
+//     newItem.innerHTML = `
+//         <span>${item}</span>
+//         <i class='fa fa-trash-o'></i>
+//     `
+//     list.append(newItem)
+// }
 
-const list = document.querySelector('ul')
+// const list = document.querySelector('ul')
 
-const deleteButton = () => { }
+// const deleteButton = () => { }
 
-const clickHandler = (event) => {
-    const target = event.target
-    if (target.matches('span')) {
-        target.setAttribute('contenteditable', true)
-    }
-    if (target.matches('i')) {
-        event.target.parentElement.remove()
-    }
-}
+// const clickHandler = (event) => {
+//     const target = event.target
+//     if (target.matches('span')) {
+//         target.setAttribute('contenteditable', true)
+//     }
+//     if (target.matches('i')) {
+//         event.target.parentElement.remove()
+//     }
+// }
 
-list.addEventListener('click', clickHandler)
+// list.addEventListener('click', clickHandler)
