@@ -19,6 +19,8 @@
 
 ## Жишээ код: https://github.com/Codely-academy/React-lesson/blob/codespace-codely-academy-silver-parakeet-v6gjx5qqxp42wpgv/src/components/CallBackend.js
 
+## Хичээлийн бичлэг: https://youtu.be/Wzwvd_dZgcg
+
 ## Даалгавар
 
 1. Категори мэдээлэл:
