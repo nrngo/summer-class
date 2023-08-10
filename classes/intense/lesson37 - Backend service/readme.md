@@ -1,8 +1,23 @@
 # React: Backend -тай харьцах
 
-1. HTTP хүсэлтийн төрлүүд: GET, POST, PUT, DELETE
-2. Http хүсэлт шидэх үүрэгтэй сангууд: fetch, axios
-3. Javascript: promise, async, await хэрэглээ
+1. API:
+   ![Alt text](image-7.png)
+
+   ![Alt text](image-9.png)
+
+2. HTTP хүсэлтийн төрлүүд:
+   ![Alt text](image-8.png)
+3. Http хүсэлт шидэх үүрэгтэй сангууд: fetch, axios
+
+```sh
+   const response = await fetch("http://example.com/movies.json");
+   const movies = await response.json();
+   console.log(movies);
+```
+
+3. Javascript: async, await хэрэглээ
+
+## Жишээ код: https://github.com/Codely-academy/React-lesson/blob/codespace-codely-academy-silver-parakeet-v6gjx5qqxp42wpgv/src/components/CallBackend.js
 
 ## Даалгавар
 
