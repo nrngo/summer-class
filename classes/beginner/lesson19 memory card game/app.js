@@ -43,17 +43,25 @@ const cardDelgeh = (card, zurag)=> {
     Таарсан картнуудыг "taarsan" гэсэн class-тай элеметүүд дээр 
     нэмээд дараа нь хожсон эсэхийг шалгана. Жишээ нь ehniiDelgesenCard.classList.add("taarsan");
     Таараагүй тохиолдолд картуудыг буцаагаад нууна.*/
+    if(/*Шалгах нөхцөлөө оруулаарай*/){
+      ehniiDelgesenCard.classList.add("taarsan");
+      ehniiDelgesenCard =null;
+      hoyrtDelgesenCard =null;
+      hojsonEseh();
+    } else cardaaNuuh();
   }
 
   const cardaaNuuh =() => {
-     //2 карт ижил биш байвал буцаагаад ? болгодог функц бичээрэй
+    /*нуух үйлдлийг хий*/
+    ehniiDelgesenCard=null;
+    hoyrtDelgesenCard = null;
   }
 
   const hojsonEseh=()=> {
-    //хожсон эсэхийг шалгах функцийн дутуу зүйлийг нь нөхөөд хийгээрэй.
-    if (/*энд нөхцөлөө шалгаарай */) {
-        setTimeout(() => {
-          alert("Баяр хүргэе, Та яллаа"); //Хэрвээ хожсон бол ийм мессеж гарч ирнэ
-        }, 500);
-      }
+    const taarsanCardnuud = document.querySelectorAll(".card.taarsan");
+        if (/*Шалгах нөхцөлөө оруулаарай*/) {
+          setTimeout(() => {
+            alert("Баяр хүргэе та яллаа");
+          }, 500);
+        }
   }
